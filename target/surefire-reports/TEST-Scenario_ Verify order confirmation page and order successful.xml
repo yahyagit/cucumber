@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Verify order confirmation page and order successful" time="0.003" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="cucumber"/>
+    <property name="CHROME_CRASHPAD_PIPE_NAME" value="\\.\pipe\crashpad_6624_VJAUMFIBGCRPCVPZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="ae4a37da27ba179f"/>
+    <property name="POM_ARTIFACTID" value="cucumberjvm-selenium-pageobject"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Cucumber-JVM Selenium page object"/>
+    <property name="NODE_LABELS" value="yahya"/>
+    <property name="TEMP" value="C:\Users\AHIYA~1.MOH\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="HOMESHARE" value="\\wedc1\home\Ahiya.Mohammed"/>
+    <property name="user.name" value="ahiya.mohammed"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="maven.repo.local" value="D:\jenkins\workspace\cucumber\.repository"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="cucumber"/>
+    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="DOCKER_TOOLBOX_INSTALL_PATH" value="C:\Program Files\Docker Toolbox"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ahiya.mohammed\AppData\Local"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="USERNAME" value="ahiya.mohammed"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="yahya"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="H:"/>
+    <property name="OOBEUILang" value="en-US"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="NZ"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="0.0.1"/>
+    <property name="TMP" value="C:\Users\AHIYA~1.MOH\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="user.variant" value=""/>
+    <property name="CHROME_PROBED_PROGRAM_FILES_PATH" value="C:\Program Files (x86)"/>
+    <property name="Platform" value="BWS"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_65"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\"/>
+    <property name="USERDNSDOMAIN" value="WE.IMGTEC.ORG"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="YAHYAM-HP"/>
+    <property name="POM_GROUPID" value="cucumber"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\ahiya.mohammed"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-cucumber-13"/>
+    <property name="JENKINS_SERVER_COOKIE" value="ae4a37da27ba179f"/>
+    <property name="HUDSON_URL" value="http://10.100.124.162:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ahiya.mohammed"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.2.3\/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\ahiya.mohammed\AppData\Local\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Perforce;C:\HashiCorp\Vagrant\bin;C:\Program Files\cURL\bin;C:\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\Android\sdk\platform-tools;D:\Android\sdk\tools;D:\Android\sdk;C:\Program Files\Java\jre1.8.0_91\bin;C:\Ruby200-x64\bin;C:\apache-maven-3.2.3\bin;C:\Program Files\Docker Toolbox;&quot;C:\Program Files\Java\jre1.8.0_91\bin&quot;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ahiya.mohammed\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.2.3"/>
+    <property name="java.class.path" value="D:\jenkins\maven32-agent.jar;C:\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar;C:\apache-maven-3.2.3\/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\apache-maven-3.2.3\ C:\Users\ahiya.mohammed\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\1\1d8af481-6272298d D:\jenkins\maven32-interceptor.jar D:\jenkins\maven3-interceptor-commons.jar 53320"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\ahiya.mohammed\AppData\Local\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Perforce;C:\HashiCorp\Vagrant\bin;C:\Program Files\cURL\bin;C:\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\Android\sdk\platform-tools;D:\Android\sdk\tools;D:\Android\sdk;C:\Program Files\Java\jre1.8.0_91\bin;C:\Ruby200-x64\bin;C:\apache-maven-3.2.3\bin;C:\Program Files\Docker Toolbox;&quot;C:\Program Files\Java\jre1.8.0_91\bin&quot;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_65/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.2.3\"/>
+    <property name="java.io.tmpdir" value="C:\Users\AHIYA~1.MOH\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.2.3\/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://10.100.124.162:8080/job/cucumber/13/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="CHROME_MAIN_TICKS" value="375997656"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\jenkins\workspace\cucumber"/>
+    <property name="JOB_URL" value="http://10.100.124.162:8080/job/cucumber/"/>
+    <property name="LOGONSERVER" value="\\WEDC1"/>
+    <property name="USERDOMAIN" value="WE"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.2.3\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="13"/>
+    <property name="ANDROID_HOME" value="D:\Android\sdk"/>
+    <property name="JENKINS_URL" value="http://10.100.124.162:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="FPPUILang" value="en-US"/>
+    <property name="PCBRAND" value="Pavilion"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="D:\jenkins\maven32-interceptor.jar"/>
+    <property name="WORKSPACE" value="D:\jenkins\workspace\cucumber"/>
+    <property name="maven3.interceptor.common" value="D:\jenkins\maven3-interceptor-commons.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="CHROME_RESTART" value="Google Chrome|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT"/>
+  </properties>
+  <testcase name="When I open automationpractice website" classname="Scenario: Verify order confirmation page and order successful" time="0"/>
+  <testcase name="And I sign in" classname="Scenario: Verify order confirmation page and order successful" time="0"/>
+  <testcase name="And I select a dress and proceed to checkout" classname="Scenario: Verify order confirmation page and order successful" time="0"/>
+  <testcase name="And I verify details on shoppingCart summary page" classname="Scenario: Verify order confirmation page and order successful" time="0"/>
+  <testcase name="And I verify address and proceed" classname="Scenario: Verify order confirmation page and order successful" time="0.003">
+    <failure message="expected:&lt;ADDRESSES&gt; but was:&lt;AUTHENTICATION&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<ADDRESSES> but was:<AUTHENTICATION>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at modules.VerifyAddressProceed.Execute(VerifyAddressProceed.java:11)
+	at step_definitions.AddressSteps.i_verify_address_and_proceed(AddressSteps.java:29)
+	at ✽.And I verify address and proceed(features/OrderConfirmation.feature:7)
+]]></failure>
+    <system-out><![CDATA[TC1	abc@xyz.com	Test@123	Chrome	Customer service	abc@123.com	abc123	Testmessage1	TC2	abc@xyz.com	Test@123	Chrome	Customer service	abc@234.com	bcd234	Testmessage2	]]></system-out>
+  </testcase>
+</testsuite>
